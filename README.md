@@ -20,31 +20,57 @@ Use a pre-trained Sentence Transformer model
 ## Workflow
 
 Input Sentences
+
       ↓
+      
 Sentence Transformer
+
       ↓
+      
 768-Dimensional Embeddings
+
       ↓
+      
 Cosine Similarity
+
       ↓
+      
 Similarity Score
+
       ↓
+      
 Similar Sentence Pairs
+
 Tech Stack
+
 Technology
+
 Purpose
+
 Python
+
 Core programming
+
 Sentence Transformers
+
 Generate sentence embeddings
+
 Scikit-learn
+
 Calculate cosine similarity
+
 NumPy
+
 Numerical operations
+
  Model
+ 
 Model: all-mpnet-base-v2
+
 The model converts each sentence into a 768-dimensional embedding vector.
+
 Example:
+
 Sentence: I enjoy coding in Python.
 
 Embedding:
